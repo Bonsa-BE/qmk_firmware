@@ -27,7 +27,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT(
         KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,           KC_MPLY,       KC_Y,   KC_U,   KC_I,    KC_O,   KC_P,
-        KC_A,   KC_S,   KC_D,   KC_SF,  KC_G,                          KC_H,   KC_SJ,  KC_K,    KC_L,   KC_SCLN,
+        KC_A,   KC_S,   KC_D,   KC_SF,  KC_G,                          KC_H,   KC_SJ,  KC_K,    KC_L,   KC_ENT,
         KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,                          KC_N,   KC_M,   KC_COMM, KC_DOT, KC_SLSH,
                         KC_LCTL,  KC_NAV_BSPC,                          KC_NUM_SPC,   KC_LALT
   ), 
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_NUM_SYM] = LAYOUT(
         KC_BSLS,   KC_7,   KC_8,   KC_9,   KC_PLUS,        KC_MUTE,      KC_EXLM,     KC_AT,     KC_HASH,     KC_DLR,     KC_PERC,
-        KC_DOT,    KC_4,   KC_5,   KC_6,   KC_MINS,                      KC_LPRN,     KC_RPRN,   KC_LBRC,     KC_RBRC,    KC_DOT,
+        KC_DOT,    KC_4,   KC_5,   KC_6,   KC_MINS,                      KC_LPRN,     KC_RPRN,   KC_LBRC,     KC_RBRC,    KC_SCLN,
         KC_0,      KC_1,   KC_2,   KC_3,   KC_ASTR,                      KC_CIRC,     KC_MSEL,   KC_EQL,      KC_QUOT,    KC_GRV,
                            KC_TAB, KC_TRNS,                              KC_TRNS,        KC_TRNS
   ),
